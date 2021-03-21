@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/background"
+        android:layout_width="579dp"
+        android:layout_height="1016dp"
+        android:contentDescription="@string/background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/background" />
+
+    <ImageView
+        android:id="@+id/checklisticon"
+        android:layout_width="96dp"
+        android:layout_height="101dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="405dp"
+        android:layout_marginEnd="270dp"
+        android:layout_marginRight="270dp"
+        android:layout_marginBottom="390dp"
+        android:contentDescription="@string/checklisticon"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/check_list"
+        tools:ignore="VectorDrawableCompat" />
+
+    <ImageView
+        android:id="@+id/plusicon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="226dp"
+        android:layout_marginEnd="359dp"
+        android:layout_marginRight="359dp"
+        android:layout_marginBottom="576dp"
+        android:contentDescription="@string/plusicon"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/plus" />
+
+    <ImageView
+        android:id="@+id/pencilicon"
+        android:layout_width="87dp"
+        android:layout_height="96dp"
+        android:layout_marginStart="152dp"
+        android:layout_marginLeft="152dp"
+        android:layout_marginTop="214dp"
+        android:layout_marginEnd="175dp"
+        android:layout_marginRight="175dp"
+        android:layout_marginBottom="586dp"
+        android:contentDescription="@string/pencilicon"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pencil"
+        tools:ignore="VectorDrawableCompat" />
+
+    <ImageView
+        android:id="@+id/penicon"
+        android:layout_width="93dp"
+        android:layout_height="122.05dp"
+        android:layout_marginStart="253dp"
+        android:layout_marginLeft="253dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="600dp"
+        android:contentDescription="@string/penicon"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.753"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/pen" />
+
+    <ImageView
+        android:id="@+id/triicon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="37dp"
+        android:layout_marginLeft="37dp"
+        android:layout_marginTop="82dp"
+        android:layout_marginBottom="737dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.068"
+        app:srcCompat="@drawable/triangle_shape"
+        android:contentDescription="@string/triicon" />
+
+    <ImageView
+        android:id="@+id/cubeicon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="329dp"
+        android:layout_marginLeft="329dp"
+        android:layout_marginTop="328dp"
+        android:layout_marginEnd="47dp"
+        android:layout_marginRight="47dp"
+        android:layout_marginBottom="405dp"
+        android:contentDescription="@string/cubeicon"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/cubic_shape" />
+
+    <TextView
+        android:id="@+id/apptitle"
+        android:layout_width="170dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="547dp"
+        android:layout_marginBottom="313dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/student_app"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.484" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="594dp"
+        android:layout_marginBottom="258dp"
+        android:text="@string/titletext"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="653dp"
+        android:layout_marginBottom="193dp"
+        android:text="@string/sign_up"
+        app:backgroundTint="#000957"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/radiusbutton"/>
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="714dp"
+        android:layout_marginBottom="132dp"
+        android:text="@string/log_in"
+        app:backgroundTint="#004F76"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/radiusbutton"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
