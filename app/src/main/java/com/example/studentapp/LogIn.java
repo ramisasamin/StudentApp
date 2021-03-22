@@ -16,7 +16,7 @@ public class LogIn extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.login);
 
-        //sgsdf
+
         btnsignup=(Button) findViewById(R.id.lsignuph);
         btnloginsubmit=(Button) findViewById(R.id.llogin);
 
