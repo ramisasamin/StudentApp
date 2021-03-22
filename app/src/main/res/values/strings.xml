@@ -47,4 +47,10 @@
     <string name="notice">Notice</string>
     <string name="student_portal">Student Portal</string>
     <string name="result">Result</string>
+    <string name="first_term">First Term</string>
+    <string name="seocnd_term">Seocnd Term</string>
+    <string name="third_term">Third Term</string>
+    <string name="_90">90%</string>
+    <string name="_80">80%</string>
+    <string name="_95">95%</string>
 </resources>
