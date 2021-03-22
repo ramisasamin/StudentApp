@@ -24,6 +24,10 @@
         </activity>
         <activity android:name=".Result">
         </activity>
+        <activity android:name=".Attendance">
+        </activity>
+        <activity android:name=".Notice">
+        </activity>
     </application>
 
 </manifest>
