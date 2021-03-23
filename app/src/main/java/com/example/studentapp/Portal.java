@@ -13,8 +13,8 @@ import java.io.BufferedReader;
 
 public class Portal extends AppCompatActivity
 {
-    TextView btnresult, btnattendance, btnnotice;
-    ImageView btnresulti, btnattendancei, btnnoticei;
+    TextView btnresult, btnattendance, btnnotice, btnpayment;
+    ImageView btnresulti, btnattendancei, btnnoticei, btnpaymenti;
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
@@ -37,6 +37,12 @@ public class Portal extends AppCompatActivity
         btnnotice=(TextView) findViewById(R.id.notice);
         btnnoticei = (ImageView) findViewById(R.id.noticei);
         btnnoticei.setImageResource(R.drawable.notice);
+
+
+        //payment
+        btnpayment=(TextView) findViewById(R.id.payment);
+        btnpaymenti = (ImageView) findViewById(R.id.paymenti);
+        btnpaymenti.setImageResource(R.drawable.payment);
 
 
 
@@ -90,6 +96,23 @@ public class Portal extends AppCompatActivity
             @Override
             public void onClick(View view) {
                 Intent intent=new Intent(Portal.this,Notice.class);
+                startActivity(intent);
+            }
+        });
+
+        //payment
+        btnpayment.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent=new Intent(Portal.this,Payment.class);
+                startActivity(intent);
+            }
+        });
+
+        btnpaymenti.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent=new Intent(Portal.this,Payment.class);
                 startActivity(intent);
             }
         });

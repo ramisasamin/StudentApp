@@ -4,10 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Notice">
+    tools:context=".Payment">
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/buttonpayment"
         android:layout_width="440dp"
         android:layout_height="15dp"
         android:layout_marginTop="160dp"
@@ -140,7 +140,7 @@
         android:layout_marginTop="262dp"
         android:layout_marginEnd="110dp"
         android:layout_marginBottom="550dp"
-        android:text="@string/notice"
+        android:text="@string/payment"
         android:textColor="#000000"
         android:textSize="25sp"
         android:textStyle="bold"
@@ -185,8 +185,8 @@
                 android:layout_marginBottom="20sp"
                 android:background="#33004F76"
                 android:padding="20sp"
-                android:text="@string/notice_1"
-                android:textAlignment="viewStart"
+                android:text="@string/january"
+                android:textAlignment="center"
                 android:textColor="#000000"
                 android:textSize="17sp" />
 
@@ -199,8 +199,8 @@
                 android:layout_marginBottom="20sp"
                 android:background="#33004F76"
                 android:padding="20sp"
-                android:text="@string/notice_2"
-                android:textAlignment="viewStart"
+                android:text="@string/february"
+                android:textAlignment="center"
                 android:textColor="#000000"
                 android:textSize="17sp" />
 
@@ -213,8 +213,8 @@
                 android:layout_marginBottom="20sp"
                 android:background="#33004F76"
                 android:padding="20sp"
-                android:text="@string/notice_3"
-                android:textAlignment="viewStart"
+                android:text="@string/march"
+                android:textAlignment="center"
                 android:textColor="#000000"
                 android:textSize="17sp" />
 
@@ -227,8 +227,8 @@
                 android:layout_marginBottom="20sp"
                 android:background="#33004F76"
                 android:padding="20sp"
-                android:text="@string/notice_4"
-                android:textAlignment="viewStart"
+                android:text="@string/april"
+                android:textAlignment="center"
                 android:textColor="#000000"
                 android:textSize="17sp" />
 
@@ -241,8 +241,8 @@
                 android:layout_marginBottom="20sp"
                 android:background="#33004F76"
                 android:padding="20sp"
-                android:text="@string/notice_5"
-                android:textAlignment="viewStart"
+                android:text="@string/may"
+                android:textAlignment="center"
                 android:textColor="#000000"
                 android:textSize="17sp" />
         </LinearLayout>

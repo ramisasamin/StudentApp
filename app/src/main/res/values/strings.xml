@@ -42,8 +42,8 @@
     <string name="attendancei">attendancei</string>
     <string name="resulti">resulti</string>
     <string name="noticei">noticei</string>
-    <string name="attendance">Attendance</string>
-    <string name="payment">Payment</string>
+<!--    <string name="attendance">Attendance</string>-->
+<!--    <string name="payment">Payment</string>-->
     <string name="notice">Notice</string>
     <string name="student_portal">Student Portal</string>
     <string name="result">Result</string>
@@ -56,4 +56,19 @@
     <string name="noticebackground">noticebackground</string>
     <string name="noticepost">TextView</string>
     <string name="textview">TextView</string>
+    <string name="lorem_i">Lorem i</string>
+    <string name="lorem_ipsum_or_lipsum_as_it_is_sometimes_known_is_dummy_text_used_in_layin">Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in layin</string>
+    <string name="lorem_ipsum_or_lipsum_as_it_is_sometimes_known">Lorem ipsum, or lipsum as it is sometimes known,</string>
+    <string name="notice_1">Notice 1</string>
+    <string name="notice_2">Notice 2</string>
+    <string name="notice_3">Notice 3</string>
+    <string name="notice_4">Notice 4</string>
+    <string name="notice_5">Notice 5</string>
+    <string name="payment">Payment</string>
+    <string name="january">January</string>
+    <string name="february">February</string>
+    <string name="march">March</string>
+    <string name="april">April</string>
+    <string name="may">May</string>
+    <string name="attendance">Attendance</string>
 </resources>
